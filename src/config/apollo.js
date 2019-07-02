@@ -5,7 +5,7 @@ import { pascalize, camelize, decamelize } from 'humps'
 
 const cache = new InMemoryCache()
 
-const jsonApiLink = new JsonApiLink({
+export const jsonApiLink = new JsonApiLink({
   uri: 'https://jsonapiplayground.reyesoft.com/v2',
   typeNameNormalizer: type => pascalize(type),
   fieldNameNormalizer: name => camelize(name),
