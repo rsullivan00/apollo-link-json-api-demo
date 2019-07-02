@@ -13,7 +13,8 @@ const fetcher = operation => {
 }
 
 const authorsQuery = `
-query getAuthors {
+# This GraphiQL explorer hits a JSON API at https://jsonapiplayground.reyesoft.com
+query getJsonApiStuff {
   authors @jsonapi(path: "/authors?include=books") {
     id
     type
@@ -26,6 +27,10 @@ query getAuthors {
       datePublished
       isbn
     }
+  }
+  photos @jsonapi(path: "/photos") {
+    name
+    uri
   }
 }
 `
