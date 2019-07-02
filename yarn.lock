@@ -1714,10 +1714,10 @@ apollo-link-http@^1.3.1:
     apollo-link-http-common "^0.2.14"
     tslib "^1.9.3"
 
-apollo-link-json-api@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/apollo-link-json-api/-/apollo-link-json-api-0.0.4.tgz#30f7968229e8bdc3a78b1eee689850c2ffd97ec0"
-  integrity sha512-RbehSk/8YO+rVDhZzHlEvojKPZ2fPkzbzccmbNGgalGuWv2xp3nxqdUHk4bIeXeFGhU8x4HgTv1QL3AmINJQ1g==
+apollo-link-json-api@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/apollo-link-json-api/-/apollo-link-json-api-0.0.5.tgz#751cfb5599165ad2471ceacd7d178bb24536e519"
+  integrity sha512-jwQdnfFduvwQxTrZ5oS9+Sck1Cwc8A3am+Ei7ZLDGSxA38CPtSn6Epxr4PsT/DLpFB9rNEhla31koBfcUv3wiQ==
 
 apollo-link@^1.0.0, apollo-link@^1.0.6, apollo-link@^1.2.12:
   version "1.2.12"
