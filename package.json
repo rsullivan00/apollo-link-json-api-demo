@@ -3,7 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.4.3",
+    "apollo-link": "^1.2.12",
+    "apollo-link-json-api": "^0.0.4",
+    "graphql": "^14.4.1",
+    "graphql-anywhere": "^4.2.4",
+    "graphql-tag": "^2.10.1",
+    "humps": "^2.0.1",
+    "qs": "^6.7.0",
     "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
@@ -27,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true
   }
 }
