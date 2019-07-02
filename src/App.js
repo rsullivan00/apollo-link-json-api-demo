@@ -29,7 +29,7 @@ query getJsonApiStuff {
     }
   }
   photos @jsonapi(path: "/photos") {
-    name
+    title
     uri
   }
 }
